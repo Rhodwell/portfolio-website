@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+body {
+    width: 52.5%;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-family: "Golos Text";
+    background-color: #FAF9F6;
+}
+
+#name {
+    font-family: "Archivo Black";
+    color: rgb(49, 49, 49);
+    margin: 0;
+    margin-bottom:5px;
+    font-weight: normal;
+}
+
+#address{
+    font-weight: 500;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#socials{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#socials a:link{
+    text-decoration: none;
+    color: #3e42ff;
+}
+
+#socials a:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #313131;
+}
+
+.subtitle{
+    margin-left: 10px;
+    color: #3C3C3C;
+}
+
+.content{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #696969;
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subsection{
+    margin-bottom: 15px;
+}
+
+.subtitle a:link{
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.subtitle a:hover{
+    color: #a2a2a2;
+}
+
+.subtitle a::after {
+    content: "\1F517";
+    margin-left: 0.3em;
+}
